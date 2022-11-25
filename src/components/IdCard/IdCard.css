@@ -1,0 +1,28 @@
+.IdCard {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  border: 1px solid black;
+  width: 30rem;
+}
+
+.IdCard img {
+  width: 10rem;
+}
+.picture {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+}
+.infos {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: stretch;
+  font-size: 1rem;
+}
+.infos span {
+  font-weight: bold;
+}
