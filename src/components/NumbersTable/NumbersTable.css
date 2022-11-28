@@ -1,4 +1,19 @@
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+}
+
 .square {
   width: 5rem;
   height: 5rem;
+  border: 1px solid black;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.even {
+  background-color: red;
 }

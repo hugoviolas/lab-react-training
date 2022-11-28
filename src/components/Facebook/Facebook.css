@@ -1,0 +1,25 @@
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: 50rem;
+  border: 1px solid black;
+  margin: 2rem;
+}
+
+.card-picture {
+  display: flex;
+  align-self: center;
+  width: 10rem;
+  height: 100%;
+  padding-left: 0.5rem;
+}
+
+.card-picture img {
+  width: 100%;
+}
+
+.info p {
+  display: flex;
+  align-items: flex-end;
+}
